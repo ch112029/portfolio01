@@ -93,6 +93,9 @@
     
     
     
+    
+    
+    
     // Portfolio filter
     var portfolioIsotope = $('.portfolio-container').isotope({
         itemSelector: '.portfolio-item',
@@ -104,6 +107,16 @@
         $(this).addClass('filter-active');
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 })(jQuery);
 
